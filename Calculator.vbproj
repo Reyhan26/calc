@@ -122,5 +122,11 @@
   <ItemGroup>
     <None Include="Resources\icons8-windows-10-32.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\expand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\history.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
