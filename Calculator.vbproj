@@ -128,5 +128,83 @@
   <ItemGroup>
     <None Include="icons\history.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\trig.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\pi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\pi1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\function.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\second.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\ce.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\backspace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\exp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\mod.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\x3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\xy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\log.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\ln.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\div.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\mul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\sub.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\plus.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
