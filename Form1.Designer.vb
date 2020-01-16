@@ -23,54 +23,54 @@ Partial Class Calculator
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.memory = New System.Windows.Forms.Button()
-        Me.mc = New System.Windows.Forms.Button()
-        Me.mr = New System.Windows.Forms.Button()
-        Me.madd = New System.Windows.Forms.Button()
-        Me.mminus = New System.Windows.Forms.Button()
-        Me.ms = New System.Windows.Forms.Button()
-        Me.degree = New System.Windows.Forms.Button()
-        Me.exponent = New System.Windows.Forms.Button()
-        Me.equal = New System.Windows.Forms.Button()
-        Me.Button22 = New System.Windows.Forms.Button()
-        Me.Button23 = New System.Windows.Forms.Button()
-        Me.Button24 = New System.Windows.Forms.Button()
-        Me.Button25 = New System.Windows.Forms.Button()
-        Me.Button26 = New System.Windows.Forms.Button()
-        Me.Button27 = New System.Windows.Forms.Button()
-        Me.Button28 = New System.Windows.Forms.Button()
-        Me.Button29 = New System.Windows.Forms.Button()
-        Me.Button30 = New System.Windows.Forms.Button()
-        Me.Button31 = New System.Windows.Forms.Button()
-        Me.Button32 = New System.Windows.Forms.Button()
-        Me.Button36 = New System.Windows.Forms.Button()
-        Me.Button35 = New System.Windows.Forms.Button()
-        Me.Button34 = New System.Windows.Forms.Button()
+        Me.But_mem = New System.Windows.Forms.Button()
+        Me.But_mc = New System.Windows.Forms.Button()
+        Me.But_mr = New System.Windows.Forms.Button()
+        Me.But_madd = New System.Windows.Forms.Button()
+        Me.But_msub = New System.Windows.Forms.Button()
+        Me.But_ms = New System.Windows.Forms.Button()
+        Me.But_deg = New System.Windows.Forms.Button()
+        Me.But_exp = New System.Windows.Forms.Button()
+        Me.But_equal = New System.Windows.Forms.Button()
+        Me.But_3 = New System.Windows.Forms.Button()
+        Me.But_7 = New System.Windows.Forms.Button()
+        Me.But_5 = New System.Windows.Forms.Button()
+        Me.But_4 = New System.Windows.Forms.Button()
+        Me.But_9 = New System.Windows.Forms.Button()
+        Me.But_8 = New System.Windows.Forms.Button()
+        Me.But_2 = New System.Windows.Forms.Button()
+        Me.But_1 = New System.Windows.Forms.Button()
+        Me.But_6 = New System.Windows.Forms.Button()
+        Me.But_dot = New System.Windows.Forms.Button()
+        Me.But_0 = New System.Windows.Forms.Button()
+        Me.But_func = New System.Windows.Forms.Button()
+        Me.trig = New System.Windows.Forms.Button()
+        Me.But_e = New System.Windows.Forms.Button()
         Me.Button33 = New System.Windows.Forms.Button()
-        Me.Button21 = New System.Windows.Forms.Button()
-        Me.Button20 = New System.Windows.Forms.Button()
-        Me.Button19 = New System.Windows.Forms.Button()
-        Me.Button18 = New System.Windows.Forms.Button()
+        Me.But_op = New System.Windows.Forms.Button()
+        Me.But_cp = New System.Windows.Forms.Button()
+        Me.But_abs = New System.Windows.Forms.Button()
+        Me.But_expp = New System.Windows.Forms.Button()
         Me.Button17 = New System.Windows.Forms.Button()
-        Me.Button16 = New System.Windows.Forms.Button()
+        Me.But_clr = New System.Windows.Forms.Button()
         Me.Button15 = New System.Windows.Forms.Button()
-        Me.Button14 = New System.Windows.Forms.Button()
+        Me.But_pi = New System.Windows.Forms.Button()
         Me.Button13 = New System.Windows.Forms.Button()
         Me.Button12 = New System.Windows.Forms.Button()
         Me.Button11 = New System.Windows.Forms.Button()
-        Me.Button10 = New System.Windows.Forms.Button()
-        Me.Button9 = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.history = New System.Windows.Forms.Button()
-        Me.navbar = New System.Windows.Forms.Button()
+        Me.But_2int = New System.Windows.Forms.Button()
+        Me.But_base10 = New System.Windows.Forms.Button()
+        Me.But_log = New System.Windows.Forms.Button()
+        Me.But_ln = New System.Windows.Forms.Button()
+        Me.But_bs = New System.Windows.Forms.Button()
+        Me.But_mod = New System.Windows.Forms.Button()
+        Me.But_div = New System.Windows.Forms.Button()
+        Me.But_mul = New System.Windows.Forms.Button()
+        Me.But_sub = New System.Windows.Forms.Button()
+        Me.But_add = New System.Windows.Forms.Button()
+        Me.But_histo = New System.Windows.Forms.Button()
+        Me.But_menu = New System.Windows.Forms.Button()
+        Me.screen = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Label1
@@ -85,406 +85,392 @@ Partial Class Calculator
         Me.Label1.TabIndex = 3
         Me.Label1.Text = "Scientific"
         '
-        'Label2
+        'But_mem
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.BackColor = System.Drawing.Color.Gainsboro
-        Me.Label2.Font = New System.Drawing.Font("Segoe UI Semibold", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.Black
-        Me.Label2.Location = New System.Drawing.Point(-7, 81)
-        Me.Label2.Name = "Label2"
-        Me.Label2.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label2.Size = New System.Drawing.Size(402, 46)
-        Me.Label2.TabIndex = 4
-        Me.Label2.Text = "888,888,888,888,888,888"
-        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.But_mem.BackColor = System.Drawing.Color.Gainsboro
+        Me.But_mem.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_mem.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_mem.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_mem.ForeColor = System.Drawing.Color.Black
+        Me.But_mem.Location = New System.Drawing.Point(323, 181)
+        Me.But_mem.Margin = New System.Windows.Forms.Padding(2)
+        Me.But_mem.Name = "But_mem"
+        Me.But_mem.Size = New System.Drawing.Size(59, 38)
+        Me.But_mem.TabIndex = 10
+        Me.But_mem.Text = "M^"
+        Me.But_mem.UseVisualStyleBackColor = False
         '
-        'memory
+        'But_mc
         '
-        Me.memory.BackColor = System.Drawing.Color.Gainsboro
-        Me.memory.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.memory.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.memory.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.memory.ForeColor = System.Drawing.Color.Black
-        Me.memory.Location = New System.Drawing.Point(323, 181)
-        Me.memory.Margin = New System.Windows.Forms.Padding(2)
-        Me.memory.Name = "memory"
-        Me.memory.Size = New System.Drawing.Size(59, 38)
-        Me.memory.TabIndex = 10
-        Me.memory.Text = "M^"
-        Me.memory.UseVisualStyleBackColor = False
+        Me.But_mc.BackColor = System.Drawing.Color.Gainsboro
+        Me.But_mc.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_mc.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_mc.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_mc.ForeColor = System.Drawing.Color.Black
+        Me.But_mc.Location = New System.Drawing.Point(7, 181)
+        Me.But_mc.Margin = New System.Windows.Forms.Padding(2)
+        Me.But_mc.Name = "But_mc"
+        Me.But_mc.Size = New System.Drawing.Size(59, 38)
+        Me.But_mc.TabIndex = 11
+        Me.But_mc.Text = "MC"
+        Me.But_mc.UseVisualStyleBackColor = False
         '
-        'mc
+        'But_mr
         '
-        Me.mc.BackColor = System.Drawing.Color.Gainsboro
-        Me.mc.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.mc.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.mc.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.mc.ForeColor = System.Drawing.Color.Black
-        Me.mc.Location = New System.Drawing.Point(7, 181)
-        Me.mc.Margin = New System.Windows.Forms.Padding(2)
-        Me.mc.Name = "mc"
-        Me.mc.Size = New System.Drawing.Size(59, 38)
-        Me.mc.TabIndex = 11
-        Me.mc.Text = "MC"
-        Me.mc.UseVisualStyleBackColor = False
+        Me.But_mr.BackColor = System.Drawing.Color.Gainsboro
+        Me.But_mr.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_mr.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_mr.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_mr.ForeColor = System.Drawing.Color.Black
+        Me.But_mr.Location = New System.Drawing.Point(71, 181)
+        Me.But_mr.Margin = New System.Windows.Forms.Padding(2)
+        Me.But_mr.Name = "But_mr"
+        Me.But_mr.Size = New System.Drawing.Size(59, 38)
+        Me.But_mr.TabIndex = 12
+        Me.But_mr.Text = "MR"
+        Me.But_mr.UseVisualStyleBackColor = False
         '
-        'mr
+        'But_madd
         '
-        Me.mr.BackColor = System.Drawing.Color.Gainsboro
-        Me.mr.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.mr.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.mr.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.mr.ForeColor = System.Drawing.Color.Black
-        Me.mr.Location = New System.Drawing.Point(71, 181)
-        Me.mr.Margin = New System.Windows.Forms.Padding(2)
-        Me.mr.Name = "mr"
-        Me.mr.Size = New System.Drawing.Size(59, 38)
-        Me.mr.TabIndex = 12
-        Me.mr.Text = "MR"
-        Me.mr.UseVisualStyleBackColor = False
+        Me.But_madd.BackColor = System.Drawing.Color.Gainsboro
+        Me.But_madd.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_madd.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_madd.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_madd.ForeColor = System.Drawing.Color.Black
+        Me.But_madd.Location = New System.Drawing.Point(134, 181)
+        Me.But_madd.Margin = New System.Windows.Forms.Padding(2)
+        Me.But_madd.Name = "But_madd"
+        Me.But_madd.Size = New System.Drawing.Size(59, 38)
+        Me.But_madd.TabIndex = 13
+        Me.But_madd.Text = "M+"
+        Me.But_madd.UseVisualStyleBackColor = False
         '
-        'madd
+        'But_msub
         '
-        Me.madd.BackColor = System.Drawing.Color.Gainsboro
-        Me.madd.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.madd.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.madd.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.madd.ForeColor = System.Drawing.Color.Black
-        Me.madd.Location = New System.Drawing.Point(134, 181)
-        Me.madd.Margin = New System.Windows.Forms.Padding(2)
-        Me.madd.Name = "madd"
-        Me.madd.Size = New System.Drawing.Size(59, 38)
-        Me.madd.TabIndex = 13
-        Me.madd.Text = "M+"
-        Me.madd.UseVisualStyleBackColor = False
+        Me.But_msub.BackColor = System.Drawing.Color.Gainsboro
+        Me.But_msub.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_msub.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_msub.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_msub.ForeColor = System.Drawing.Color.Black
+        Me.But_msub.Location = New System.Drawing.Point(197, 181)
+        Me.But_msub.Margin = New System.Windows.Forms.Padding(2)
+        Me.But_msub.Name = "But_msub"
+        Me.But_msub.Size = New System.Drawing.Size(59, 38)
+        Me.But_msub.TabIndex = 14
+        Me.But_msub.Text = "M-"
+        Me.But_msub.UseVisualStyleBackColor = False
         '
-        'mminus
+        'But_ms
         '
-        Me.mminus.BackColor = System.Drawing.Color.Gainsboro
-        Me.mminus.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.mminus.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.mminus.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.mminus.ForeColor = System.Drawing.Color.Black
-        Me.mminus.Location = New System.Drawing.Point(197, 181)
-        Me.mminus.Margin = New System.Windows.Forms.Padding(2)
-        Me.mminus.Name = "mminus"
-        Me.mminus.Size = New System.Drawing.Size(59, 38)
-        Me.mminus.TabIndex = 14
-        Me.mminus.Text = "M-"
-        Me.mminus.UseVisualStyleBackColor = False
+        Me.But_ms.BackColor = System.Drawing.Color.Gainsboro
+        Me.But_ms.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_ms.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_ms.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_ms.ForeColor = System.Drawing.Color.Black
+        Me.But_ms.Location = New System.Drawing.Point(260, 181)
+        Me.But_ms.Margin = New System.Windows.Forms.Padding(2)
+        Me.But_ms.Name = "But_ms"
+        Me.But_ms.Size = New System.Drawing.Size(59, 38)
+        Me.But_ms.TabIndex = 15
+        Me.But_ms.Text = "MS"
+        Me.But_ms.UseVisualStyleBackColor = False
         '
-        'ms
+        'But_deg
         '
-        Me.ms.BackColor = System.Drawing.Color.Gainsboro
-        Me.ms.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.ms.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ms.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ms.ForeColor = System.Drawing.Color.Black
-        Me.ms.Location = New System.Drawing.Point(260, 181)
-        Me.ms.Margin = New System.Windows.Forms.Padding(2)
-        Me.ms.Name = "ms"
-        Me.ms.Size = New System.Drawing.Size(59, 38)
-        Me.ms.TabIndex = 15
-        Me.ms.Text = "MS"
-        Me.ms.UseVisualStyleBackColor = False
+        Me.But_deg.BackColor = System.Drawing.Color.Gainsboro
+        Me.But_deg.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_deg.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_deg.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_deg.ForeColor = System.Drawing.Color.Black
+        Me.But_deg.Location = New System.Drawing.Point(7, 139)
+        Me.But_deg.Margin = New System.Windows.Forms.Padding(2)
+        Me.But_deg.Name = "But_deg"
+        Me.But_deg.Size = New System.Drawing.Size(59, 38)
+        Me.But_deg.TabIndex = 16
+        Me.But_deg.Text = "DEG"
+        Me.But_deg.UseVisualStyleBackColor = False
         '
-        'degree
+        'But_exp
         '
-        Me.degree.BackColor = System.Drawing.Color.Gainsboro
-        Me.degree.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.degree.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.degree.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.degree.ForeColor = System.Drawing.Color.Black
-        Me.degree.Location = New System.Drawing.Point(7, 139)
-        Me.degree.Margin = New System.Windows.Forms.Padding(2)
-        Me.degree.Name = "degree"
-        Me.degree.Size = New System.Drawing.Size(59, 38)
-        Me.degree.TabIndex = 16
-        Me.degree.Text = "DEG"
-        Me.degree.UseVisualStyleBackColor = False
+        Me.But_exp.BackColor = System.Drawing.Color.Gainsboro
+        Me.But_exp.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_exp.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_exp.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_exp.ForeColor = System.Drawing.Color.Black
+        Me.But_exp.Location = New System.Drawing.Point(68, 139)
+        Me.But_exp.Margin = New System.Windows.Forms.Padding(2)
+        Me.But_exp.Name = "But_exp"
+        Me.But_exp.Size = New System.Drawing.Size(59, 38)
+        Me.But_exp.TabIndex = 17
+        Me.But_exp.Text = "F-E"
+        Me.But_exp.UseVisualStyleBackColor = False
         '
-        'exponent
+        'But_equal
         '
-        Me.exponent.BackColor = System.Drawing.Color.Gainsboro
-        Me.exponent.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.exponent.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.exponent.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.exponent.ForeColor = System.Drawing.Color.Black
-        Me.exponent.Location = New System.Drawing.Point(68, 139)
-        Me.exponent.Margin = New System.Windows.Forms.Padding(2)
-        Me.exponent.Name = "exponent"
-        Me.exponent.Size = New System.Drawing.Size(59, 38)
-        Me.exponent.TabIndex = 17
-        Me.exponent.Text = "F-E"
-        Me.exponent.UseVisualStyleBackColor = False
+        Me.But_equal.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.But_equal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.But_equal.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_equal.FlatAppearance.BorderSize = 0
+        Me.But_equal.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_equal.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_equal.ForeColor = System.Drawing.Color.Black
+        Me.But_equal.Location = New System.Drawing.Point(307, 536)
+        Me.But_equal.Margin = New System.Windows.Forms.Padding(0)
+        Me.But_equal.Name = "But_equal"
+        Me.But_equal.Size = New System.Drawing.Size(75, 45)
+        Me.But_equal.TabIndex = 18
+        Me.But_equal.Text = "="
+        Me.But_equal.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
+        Me.But_equal.UseVisualStyleBackColor = False
         '
-        'equal
+        'But_3
         '
-        Me.equal.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.equal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.equal.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.equal.FlatAppearance.BorderSize = 0
-        Me.equal.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.equal.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.equal.ForeColor = System.Drawing.Color.Black
-        Me.equal.Location = New System.Drawing.Point(307, 536)
-        Me.equal.Margin = New System.Windows.Forms.Padding(0)
-        Me.equal.Name = "equal"
-        Me.equal.Size = New System.Drawing.Size(75, 45)
-        Me.equal.TabIndex = 18
-        Me.equal.Text = "="
-        Me.equal.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
-        Me.equal.UseVisualStyleBackColor = False
+        Me.But_3.BackColor = System.Drawing.Color.White
+        Me.But_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.But_3.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_3.FlatAppearance.BorderSize = 0
+        Me.But_3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_3.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_3.ForeColor = System.Drawing.Color.Black
+        Me.But_3.Location = New System.Drawing.Point(232, 491)
+        Me.But_3.Margin = New System.Windows.Forms.Padding(0)
+        Me.But_3.Name = "But_3"
+        Me.But_3.Size = New System.Drawing.Size(75, 45)
+        Me.But_3.TabIndex = 40
+        Me.But_3.Text = "3"
+        Me.But_3.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
+        Me.But_3.UseVisualStyleBackColor = False
         '
-        'Button22
+        'But_7
         '
-        Me.Button22.BackColor = System.Drawing.Color.White
-        Me.Button22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button22.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.Button22.FlatAppearance.BorderSize = 0
-        Me.Button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button22.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button22.ForeColor = System.Drawing.Color.Black
-        Me.Button22.Location = New System.Drawing.Point(232, 491)
-        Me.Button22.Margin = New System.Windows.Forms.Padding(0)
-        Me.Button22.Name = "Button22"
-        Me.Button22.Size = New System.Drawing.Size(75, 45)
-        Me.Button22.TabIndex = 40
-        Me.Button22.Text = "3"
-        Me.Button22.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
-        Me.Button22.UseVisualStyleBackColor = False
+        Me.But_7.BackColor = System.Drawing.Color.White
+        Me.But_7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.But_7.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_7.FlatAppearance.BorderSize = 0
+        Me.But_7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_7.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_7.ForeColor = System.Drawing.Color.Black
+        Me.But_7.Location = New System.Drawing.Point(82, 401)
+        Me.But_7.Margin = New System.Windows.Forms.Padding(0)
+        Me.But_7.Name = "But_7"
+        Me.But_7.Size = New System.Drawing.Size(75, 45)
+        Me.But_7.TabIndex = 41
+        Me.But_7.Text = "7"
+        Me.But_7.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
+        Me.But_7.UseVisualStyleBackColor = False
         '
-        'Button23
+        'But_5
         '
-        Me.Button23.BackColor = System.Drawing.Color.White
-        Me.Button23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button23.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.Button23.FlatAppearance.BorderSize = 0
-        Me.Button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button23.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button23.ForeColor = System.Drawing.Color.Black
-        Me.Button23.Location = New System.Drawing.Point(82, 401)
-        Me.Button23.Margin = New System.Windows.Forms.Padding(0)
-        Me.Button23.Name = "Button23"
-        Me.Button23.Size = New System.Drawing.Size(75, 45)
-        Me.Button23.TabIndex = 41
-        Me.Button23.Text = "7"
-        Me.Button23.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
-        Me.Button23.UseVisualStyleBackColor = False
+        Me.But_5.BackColor = System.Drawing.Color.White
+        Me.But_5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.But_5.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_5.FlatAppearance.BorderSize = 0
+        Me.But_5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_5.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_5.ForeColor = System.Drawing.Color.Black
+        Me.But_5.Location = New System.Drawing.Point(157, 446)
+        Me.But_5.Margin = New System.Windows.Forms.Padding(0)
+        Me.But_5.Name = "But_5"
+        Me.But_5.Size = New System.Drawing.Size(75, 45)
+        Me.But_5.TabIndex = 42
+        Me.But_5.Text = "5"
+        Me.But_5.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
+        Me.But_5.UseVisualStyleBackColor = False
         '
-        'Button24
+        'But_4
         '
-        Me.Button24.BackColor = System.Drawing.Color.White
-        Me.Button24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button24.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.Button24.FlatAppearance.BorderSize = 0
-        Me.Button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button24.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button24.ForeColor = System.Drawing.Color.Black
-        Me.Button24.Location = New System.Drawing.Point(157, 446)
-        Me.Button24.Margin = New System.Windows.Forms.Padding(0)
-        Me.Button24.Name = "Button24"
-        Me.Button24.Size = New System.Drawing.Size(75, 45)
-        Me.Button24.TabIndex = 42
-        Me.Button24.Text = "5"
-        Me.Button24.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
-        Me.Button24.UseVisualStyleBackColor = False
+        Me.But_4.BackColor = System.Drawing.Color.White
+        Me.But_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.But_4.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_4.FlatAppearance.BorderSize = 0
+        Me.But_4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_4.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_4.ForeColor = System.Drawing.Color.Black
+        Me.But_4.Location = New System.Drawing.Point(82, 446)
+        Me.But_4.Margin = New System.Windows.Forms.Padding(0)
+        Me.But_4.Name = "But_4"
+        Me.But_4.Size = New System.Drawing.Size(75, 45)
+        Me.But_4.TabIndex = 43
+        Me.But_4.Text = "4"
+        Me.But_4.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
+        Me.But_4.UseVisualStyleBackColor = False
         '
-        'Button25
+        'But_9
         '
-        Me.Button25.BackColor = System.Drawing.Color.White
-        Me.Button25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button25.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.Button25.FlatAppearance.BorderSize = 0
-        Me.Button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button25.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button25.ForeColor = System.Drawing.Color.Black
-        Me.Button25.Location = New System.Drawing.Point(82, 446)
-        Me.Button25.Margin = New System.Windows.Forms.Padding(0)
-        Me.Button25.Name = "Button25"
-        Me.Button25.Size = New System.Drawing.Size(75, 45)
-        Me.Button25.TabIndex = 43
-        Me.Button25.Text = "4"
-        Me.Button25.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
-        Me.Button25.UseVisualStyleBackColor = False
+        Me.But_9.BackColor = System.Drawing.Color.White
+        Me.But_9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.But_9.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_9.FlatAppearance.BorderSize = 0
+        Me.But_9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_9.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_9.ForeColor = System.Drawing.Color.Black
+        Me.But_9.Location = New System.Drawing.Point(232, 401)
+        Me.But_9.Margin = New System.Windows.Forms.Padding(0)
+        Me.But_9.Name = "But_9"
+        Me.But_9.Size = New System.Drawing.Size(75, 45)
+        Me.But_9.TabIndex = 44
+        Me.But_9.Text = "9"
+        Me.But_9.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
+        Me.But_9.UseVisualStyleBackColor = False
         '
-        'Button26
+        'But_8
         '
-        Me.Button26.BackColor = System.Drawing.Color.White
-        Me.Button26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button26.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.Button26.FlatAppearance.BorderSize = 0
-        Me.Button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button26.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button26.ForeColor = System.Drawing.Color.Black
-        Me.Button26.Location = New System.Drawing.Point(232, 401)
-        Me.Button26.Margin = New System.Windows.Forms.Padding(0)
-        Me.Button26.Name = "Button26"
-        Me.Button26.Size = New System.Drawing.Size(75, 45)
-        Me.Button26.TabIndex = 44
-        Me.Button26.Text = "9"
-        Me.Button26.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
-        Me.Button26.UseVisualStyleBackColor = False
+        Me.But_8.BackColor = System.Drawing.Color.White
+        Me.But_8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.But_8.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_8.FlatAppearance.BorderSize = 0
+        Me.But_8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_8.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_8.ForeColor = System.Drawing.Color.Black
+        Me.But_8.Location = New System.Drawing.Point(157, 401)
+        Me.But_8.Margin = New System.Windows.Forms.Padding(0)
+        Me.But_8.Name = "But_8"
+        Me.But_8.Size = New System.Drawing.Size(75, 45)
+        Me.But_8.TabIndex = 45
+        Me.But_8.Text = "8"
+        Me.But_8.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
+        Me.But_8.UseVisualStyleBackColor = False
         '
-        'Button27
+        'But_2
         '
-        Me.Button27.BackColor = System.Drawing.Color.White
-        Me.Button27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button27.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.Button27.FlatAppearance.BorderSize = 0
-        Me.Button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button27.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button27.ForeColor = System.Drawing.Color.Black
-        Me.Button27.Location = New System.Drawing.Point(157, 401)
-        Me.Button27.Margin = New System.Windows.Forms.Padding(0)
-        Me.Button27.Name = "Button27"
-        Me.Button27.Size = New System.Drawing.Size(75, 45)
-        Me.Button27.TabIndex = 45
-        Me.Button27.Text = "8"
-        Me.Button27.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
-        Me.Button27.UseVisualStyleBackColor = False
+        Me.But_2.BackColor = System.Drawing.Color.White
+        Me.But_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.But_2.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_2.FlatAppearance.BorderSize = 0
+        Me.But_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_2.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_2.ForeColor = System.Drawing.Color.Black
+        Me.But_2.Location = New System.Drawing.Point(157, 491)
+        Me.But_2.Margin = New System.Windows.Forms.Padding(0)
+        Me.But_2.Name = "But_2"
+        Me.But_2.Size = New System.Drawing.Size(75, 45)
+        Me.But_2.TabIndex = 46
+        Me.But_2.Text = "2"
+        Me.But_2.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
+        Me.But_2.UseVisualStyleBackColor = False
         '
-        'Button28
+        'But_1
         '
-        Me.Button28.BackColor = System.Drawing.Color.White
-        Me.Button28.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button28.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.Button28.FlatAppearance.BorderSize = 0
-        Me.Button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button28.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button28.ForeColor = System.Drawing.Color.Black
-        Me.Button28.Location = New System.Drawing.Point(157, 491)
-        Me.Button28.Margin = New System.Windows.Forms.Padding(0)
-        Me.Button28.Name = "Button28"
-        Me.Button28.Size = New System.Drawing.Size(75, 45)
-        Me.Button28.TabIndex = 46
-        Me.Button28.Text = "2"
-        Me.Button28.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
-        Me.Button28.UseVisualStyleBackColor = False
+        Me.But_1.BackColor = System.Drawing.Color.White
+        Me.But_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.But_1.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_1.FlatAppearance.BorderSize = 0
+        Me.But_1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_1.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_1.ForeColor = System.Drawing.Color.Black
+        Me.But_1.Location = New System.Drawing.Point(82, 491)
+        Me.But_1.Margin = New System.Windows.Forms.Padding(0)
+        Me.But_1.Name = "But_1"
+        Me.But_1.Size = New System.Drawing.Size(75, 45)
+        Me.But_1.TabIndex = 47
+        Me.But_1.Text = "1"
+        Me.But_1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
+        Me.But_1.UseVisualStyleBackColor = False
         '
-        'Button29
+        'But_6
         '
-        Me.Button29.BackColor = System.Drawing.Color.White
-        Me.Button29.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button29.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.Button29.FlatAppearance.BorderSize = 0
-        Me.Button29.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button29.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button29.ForeColor = System.Drawing.Color.Black
-        Me.Button29.Location = New System.Drawing.Point(82, 491)
-        Me.Button29.Margin = New System.Windows.Forms.Padding(0)
-        Me.Button29.Name = "Button29"
-        Me.Button29.Size = New System.Drawing.Size(75, 45)
-        Me.Button29.TabIndex = 47
-        Me.Button29.Text = "1"
-        Me.Button29.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
-        Me.Button29.UseVisualStyleBackColor = False
+        Me.But_6.BackColor = System.Drawing.Color.White
+        Me.But_6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.But_6.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_6.FlatAppearance.BorderSize = 0
+        Me.But_6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_6.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_6.ForeColor = System.Drawing.Color.Black
+        Me.But_6.Location = New System.Drawing.Point(232, 446)
+        Me.But_6.Margin = New System.Windows.Forms.Padding(0)
+        Me.But_6.Name = "But_6"
+        Me.But_6.Size = New System.Drawing.Size(75, 45)
+        Me.But_6.TabIndex = 48
+        Me.But_6.Text = "6"
+        Me.But_6.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
+        Me.But_6.UseVisualStyleBackColor = False
         '
-        'Button30
+        'But_dot
         '
-        Me.Button30.BackColor = System.Drawing.Color.White
-        Me.Button30.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button30.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.Button30.FlatAppearance.BorderSize = 0
-        Me.Button30.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button30.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button30.ForeColor = System.Drawing.Color.Black
-        Me.Button30.Location = New System.Drawing.Point(232, 446)
-        Me.Button30.Margin = New System.Windows.Forms.Padding(0)
-        Me.Button30.Name = "Button30"
-        Me.Button30.Size = New System.Drawing.Size(75, 45)
-        Me.Button30.TabIndex = 48
-        Me.Button30.Text = "6"
-        Me.Button30.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
-        Me.Button30.UseVisualStyleBackColor = False
+        Me.But_dot.BackColor = System.Drawing.Color.White
+        Me.But_dot.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.But_dot.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_dot.FlatAppearance.BorderSize = 0
+        Me.But_dot.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_dot.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_dot.ForeColor = System.Drawing.Color.Black
+        Me.But_dot.Location = New System.Drawing.Point(232, 536)
+        Me.But_dot.Margin = New System.Windows.Forms.Padding(0)
+        Me.But_dot.Name = "But_dot"
+        Me.But_dot.Size = New System.Drawing.Size(75, 45)
+        Me.But_dot.TabIndex = 49
+        Me.But_dot.Text = "."
+        Me.But_dot.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
+        Me.But_dot.UseVisualStyleBackColor = False
         '
-        'Button31
+        'But_0
         '
-        Me.Button31.BackColor = System.Drawing.Color.White
-        Me.Button31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button31.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.Button31.FlatAppearance.BorderSize = 0
-        Me.Button31.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button31.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button31.ForeColor = System.Drawing.Color.Black
-        Me.Button31.Location = New System.Drawing.Point(232, 536)
-        Me.Button31.Margin = New System.Windows.Forms.Padding(0)
-        Me.Button31.Name = "Button31"
-        Me.Button31.Size = New System.Drawing.Size(75, 45)
-        Me.Button31.TabIndex = 49
-        Me.Button31.Text = "."
-        Me.Button31.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
-        Me.Button31.UseVisualStyleBackColor = False
+        Me.But_0.BackColor = System.Drawing.Color.White
+        Me.But_0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.But_0.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_0.FlatAppearance.BorderSize = 0
+        Me.But_0.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_0.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_0.ForeColor = System.Drawing.Color.Black
+        Me.But_0.Location = New System.Drawing.Point(157, 536)
+        Me.But_0.Margin = New System.Windows.Forms.Padding(0)
+        Me.But_0.Name = "But_0"
+        Me.But_0.Size = New System.Drawing.Size(75, 45)
+        Me.But_0.TabIndex = 50
+        Me.But_0.Text = "0"
+        Me.But_0.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
+        Me.But_0.UseVisualStyleBackColor = False
         '
-        'Button32
+        'But_func
         '
-        Me.Button32.BackColor = System.Drawing.Color.White
-        Me.Button32.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button32.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.Button32.FlatAppearance.BorderSize = 0
-        Me.Button32.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button32.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button32.ForeColor = System.Drawing.Color.Black
-        Me.Button32.Location = New System.Drawing.Point(157, 536)
-        Me.Button32.Margin = New System.Windows.Forms.Padding(0)
-        Me.Button32.Name = "Button32"
-        Me.Button32.Size = New System.Drawing.Size(75, 45)
-        Me.Button32.TabIndex = 50
-        Me.Button32.Text = "0"
-        Me.Button32.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
-        Me.Button32.UseVisualStyleBackColor = False
+        Me.But_func.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.But_func.BackgroundImage = Global.Calculator.My.Resources.Resources._function
+        Me.But_func.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.But_func.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_func.FlatAppearance.BorderSize = 0
+        Me.But_func.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_func.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_func.Location = New System.Drawing.Point(122, 225)
+        Me.But_func.Margin = New System.Windows.Forms.Padding(0)
+        Me.But_func.Name = "But_func"
+        Me.But_func.Size = New System.Drawing.Size(86, 33)
+        Me.But_func.TabIndex = 54
+        Me.But_func.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
+        Me.But_func.UseVisualStyleBackColor = False
         '
-        'Button36
+        'trig
         '
-        Me.Button36.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Button36.BackgroundImage = Global.Calculator.My.Resources.Resources._function
-        Me.Button36.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button36.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.Button36.FlatAppearance.BorderSize = 0
-        Me.Button36.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button36.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button36.Location = New System.Drawing.Point(122, 225)
-        Me.Button36.Margin = New System.Windows.Forms.Padding(0)
-        Me.Button36.Name = "Button36"
-        Me.Button36.Size = New System.Drawing.Size(86, 33)
-        Me.Button36.TabIndex = 54
-        Me.Button36.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
-        Me.Button36.UseVisualStyleBackColor = False
+        Me.trig.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.trig.BackgroundImage = Global.Calculator.My.Resources.Resources.trig1
+        Me.trig.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.trig.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.trig.FlatAppearance.BorderSize = 0
+        Me.trig.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.trig.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.trig.Location = New System.Drawing.Point(7, 225)
+        Me.trig.Margin = New System.Windows.Forms.Padding(0)
+        Me.trig.Name = "trig"
+        Me.trig.Size = New System.Drawing.Size(115, 33)
+        Me.trig.TabIndex = 53
+        Me.trig.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
+        Me.trig.UseVisualStyleBackColor = False
         '
-        'Button35
+        'But_e
         '
-        Me.Button35.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Button35.BackgroundImage = Global.Calculator.My.Resources.Resources.trig1
-        Me.Button35.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button35.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.Button35.FlatAppearance.BorderSize = 0
-        Me.Button35.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button35.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button35.Location = New System.Drawing.Point(7, 225)
-        Me.Button35.Margin = New System.Windows.Forms.Padding(0)
-        Me.Button35.Name = "Button35"
-        Me.Button35.Size = New System.Drawing.Size(115, 33)
-        Me.Button35.TabIndex = 53
-        Me.Button35.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
-        Me.Button35.UseVisualStyleBackColor = False
-        '
-        'Button34
-        '
-        Me.Button34.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Button34.BackgroundImage = Global.Calculator.My.Resources.Resources.e
-        Me.Button34.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button34.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.Button34.FlatAppearance.BorderSize = 0
-        Me.Button34.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button34.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button34.Location = New System.Drawing.Point(157, 266)
-        Me.Button34.Margin = New System.Windows.Forms.Padding(0)
-        Me.Button34.Name = "Button34"
-        Me.Button34.Size = New System.Drawing.Size(75, 45)
-        Me.Button34.TabIndex = 52
-        Me.Button34.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
-        Me.Button34.UseVisualStyleBackColor = False
+        Me.But_e.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.But_e.BackgroundImage = Global.Calculator.My.Resources.Resources.e
+        Me.But_e.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.But_e.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_e.FlatAppearance.BorderSize = 0
+        Me.But_e.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_e.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_e.Location = New System.Drawing.Point(157, 266)
+        Me.But_e.Margin = New System.Windows.Forms.Padding(0)
+        Me.But_e.Name = "But_e"
+        Me.But_e.Size = New System.Drawing.Size(75, 45)
+        Me.But_e.TabIndex = 52
+        Me.But_e.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
+        Me.But_e.UseVisualStyleBackColor = False
         '
         'Button33
         '
@@ -503,73 +489,73 @@ Partial Class Calculator
         Me.Button33.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
         Me.Button33.UseVisualStyleBackColor = False
         '
-        'Button21
+        'But_op
         '
-        Me.Button21.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Button21.BackgroundImage = Global.Calculator.My.Resources.Resources.open
-        Me.Button21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button21.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.Button21.FlatAppearance.BorderSize = 0
-        Me.Button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button21.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button21.Location = New System.Drawing.Point(82, 356)
-        Me.Button21.Margin = New System.Windows.Forms.Padding(0)
-        Me.Button21.Name = "Button21"
-        Me.Button21.Size = New System.Drawing.Size(75, 45)
-        Me.Button21.TabIndex = 39
-        Me.Button21.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
-        Me.Button21.UseVisualStyleBackColor = False
+        Me.But_op.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.But_op.BackgroundImage = Global.Calculator.My.Resources.Resources.open
+        Me.But_op.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.But_op.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_op.FlatAppearance.BorderSize = 0
+        Me.But_op.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_op.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_op.Location = New System.Drawing.Point(82, 356)
+        Me.But_op.Margin = New System.Windows.Forms.Padding(0)
+        Me.But_op.Name = "But_op"
+        Me.But_op.Size = New System.Drawing.Size(75, 45)
+        Me.But_op.TabIndex = 39
+        Me.But_op.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
+        Me.But_op.UseVisualStyleBackColor = False
         '
-        'Button20
+        'But_cp
         '
-        Me.Button20.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Button20.BackgroundImage = Global.Calculator.My.Resources.Resources.close
-        Me.Button20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button20.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.Button20.FlatAppearance.BorderSize = 0
-        Me.Button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button20.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button20.Location = New System.Drawing.Point(157, 356)
-        Me.Button20.Margin = New System.Windows.Forms.Padding(0)
-        Me.Button20.Name = "Button20"
-        Me.Button20.Size = New System.Drawing.Size(75, 45)
-        Me.Button20.TabIndex = 38
-        Me.Button20.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
-        Me.Button20.UseVisualStyleBackColor = False
+        Me.But_cp.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.But_cp.BackgroundImage = Global.Calculator.My.Resources.Resources.close
+        Me.But_cp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.But_cp.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_cp.FlatAppearance.BorderSize = 0
+        Me.But_cp.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_cp.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_cp.Location = New System.Drawing.Point(157, 356)
+        Me.But_cp.Margin = New System.Windows.Forms.Padding(0)
+        Me.But_cp.Name = "But_cp"
+        Me.But_cp.Size = New System.Drawing.Size(75, 45)
+        Me.But_cp.TabIndex = 38
+        Me.But_cp.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
+        Me.But_cp.UseVisualStyleBackColor = False
         '
-        'Button19
+        'But_abs
         '
-        Me.Button19.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Button19.BackgroundImage = Global.Calculator.My.Resources.Resources._1
-        Me.Button19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button19.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.Button19.FlatAppearance.BorderSize = 0
-        Me.Button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button19.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button19.Location = New System.Drawing.Point(157, 311)
-        Me.Button19.Margin = New System.Windows.Forms.Padding(0)
-        Me.Button19.Name = "Button19"
-        Me.Button19.Size = New System.Drawing.Size(75, 45)
-        Me.Button19.TabIndex = 37
-        Me.Button19.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
-        Me.Button19.UseVisualStyleBackColor = False
+        Me.But_abs.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.But_abs.BackgroundImage = Global.Calculator.My.Resources.Resources._1
+        Me.But_abs.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.But_abs.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_abs.FlatAppearance.BorderSize = 0
+        Me.But_abs.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_abs.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_abs.Location = New System.Drawing.Point(157, 311)
+        Me.But_abs.Margin = New System.Windows.Forms.Padding(0)
+        Me.But_abs.Name = "But_abs"
+        Me.But_abs.Size = New System.Drawing.Size(75, 45)
+        Me.But_abs.TabIndex = 37
+        Me.But_abs.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
+        Me.But_abs.UseVisualStyleBackColor = False
         '
-        'Button18
+        'But_expp
         '
-        Me.Button18.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Button18.BackgroundImage = Global.Calculator.My.Resources.Resources.exp
-        Me.Button18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button18.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.Button18.FlatAppearance.BorderSize = 0
-        Me.Button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button18.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button18.Location = New System.Drawing.Point(232, 311)
-        Me.Button18.Margin = New System.Windows.Forms.Padding(0)
-        Me.Button18.Name = "Button18"
-        Me.Button18.Size = New System.Drawing.Size(75, 45)
-        Me.Button18.TabIndex = 36
-        Me.Button18.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
-        Me.Button18.UseVisualStyleBackColor = False
+        Me.But_expp.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.But_expp.BackgroundImage = Global.Calculator.My.Resources.Resources.exp
+        Me.But_expp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.But_expp.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_expp.FlatAppearance.BorderSize = 0
+        Me.But_expp.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_expp.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_expp.Location = New System.Drawing.Point(232, 311)
+        Me.But_expp.Margin = New System.Windows.Forms.Padding(0)
+        Me.But_expp.Name = "But_expp"
+        Me.But_expp.Size = New System.Drawing.Size(75, 45)
+        Me.But_expp.TabIndex = 36
+        Me.But_expp.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
+        Me.But_expp.UseVisualStyleBackColor = False
         '
         'Button17
         '
@@ -588,22 +574,22 @@ Partial Class Calculator
         Me.Button17.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
         Me.Button17.UseVisualStyleBackColor = False
         '
-        'Button16
+        'But_clr
         '
-        Me.Button16.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Button16.BackgroundImage = Global.Calculator.My.Resources.Resources.ce
-        Me.Button16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button16.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.Button16.FlatAppearance.BorderSize = 0
-        Me.Button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button16.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button16.Location = New System.Drawing.Point(232, 266)
-        Me.Button16.Margin = New System.Windows.Forms.Padding(0)
-        Me.Button16.Name = "Button16"
-        Me.Button16.Size = New System.Drawing.Size(75, 45)
-        Me.Button16.TabIndex = 34
-        Me.Button16.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
-        Me.Button16.UseVisualStyleBackColor = False
+        Me.But_clr.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.But_clr.BackgroundImage = Global.Calculator.My.Resources.Resources.ce
+        Me.But_clr.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.But_clr.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_clr.FlatAppearance.BorderSize = 0
+        Me.But_clr.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_clr.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_clr.Location = New System.Drawing.Point(232, 266)
+        Me.But_clr.Margin = New System.Windows.Forms.Padding(0)
+        Me.But_clr.Name = "But_clr"
+        Me.But_clr.Size = New System.Drawing.Size(75, 45)
+        Me.But_clr.TabIndex = 34
+        Me.But_clr.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
+        Me.But_clr.UseVisualStyleBackColor = False
         '
         'Button15
         '
@@ -622,22 +608,22 @@ Partial Class Calculator
         Me.Button15.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
         Me.Button15.UseVisualStyleBackColor = False
         '
-        'Button14
+        'But_pi
         '
-        Me.Button14.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Button14.BackgroundImage = Global.Calculator.My.Resources.Resources.pi1
-        Me.Button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button14.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.Button14.FlatAppearance.BorderSize = 0
-        Me.Button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button14.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button14.Location = New System.Drawing.Point(82, 266)
-        Me.Button14.Margin = New System.Windows.Forms.Padding(0)
-        Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(75, 45)
-        Me.Button14.TabIndex = 32
-        Me.Button14.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
-        Me.Button14.UseVisualStyleBackColor = False
+        Me.But_pi.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.But_pi.BackgroundImage = Global.Calculator.My.Resources.Resources.pi1
+        Me.But_pi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.But_pi.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_pi.FlatAppearance.BorderSize = 0
+        Me.But_pi.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_pi.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_pi.Location = New System.Drawing.Point(82, 266)
+        Me.But_pi.Margin = New System.Windows.Forms.Padding(0)
+        Me.But_pi.Name = "But_pi"
+        Me.But_pi.Size = New System.Drawing.Size(75, 45)
+        Me.But_pi.TabIndex = 32
+        Me.But_pi.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
+        Me.But_pi.UseVisualStyleBackColor = False
         '
         'Button13
         '
@@ -690,203 +676,215 @@ Partial Class Calculator
         Me.Button11.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
         Me.Button11.UseVisualStyleBackColor = False
         '
-        'Button10
+        'But_2int
         '
-        Me.Button10.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Button10.BackgroundImage = Global.Calculator.My.Resources.Resources.xy
-        Me.Button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button10.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.Button10.FlatAppearance.BorderSize = 0
-        Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button10.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button10.Location = New System.Drawing.Point(7, 401)
-        Me.Button10.Margin = New System.Windows.Forms.Padding(0)
-        Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(75, 45)
-        Me.Button10.TabIndex = 28
-        Me.Button10.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
-        Me.Button10.UseVisualStyleBackColor = False
+        Me.But_2int.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.But_2int.BackgroundImage = Global.Calculator.My.Resources.Resources.xy
+        Me.But_2int.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.But_2int.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_2int.FlatAppearance.BorderSize = 0
+        Me.But_2int.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_2int.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_2int.Location = New System.Drawing.Point(7, 401)
+        Me.But_2int.Margin = New System.Windows.Forms.Padding(0)
+        Me.But_2int.Name = "But_2int"
+        Me.But_2int.Size = New System.Drawing.Size(75, 45)
+        Me.But_2int.TabIndex = 28
+        Me.But_2int.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
+        Me.But_2int.UseVisualStyleBackColor = False
         '
-        'Button9
+        'But_base10
         '
-        Me.Button9.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Button9.BackgroundImage = Global.Calculator.My.Resources.Resources._10
-        Me.Button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button9.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.Button9.FlatAppearance.BorderSize = 0
-        Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button9.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button9.Location = New System.Drawing.Point(7, 446)
-        Me.Button9.Margin = New System.Windows.Forms.Padding(0)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(75, 45)
-        Me.Button9.TabIndex = 27
-        Me.Button9.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
-        Me.Button9.UseVisualStyleBackColor = False
+        Me.But_base10.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.But_base10.BackgroundImage = Global.Calculator.My.Resources.Resources._10
+        Me.But_base10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.But_base10.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_base10.FlatAppearance.BorderSize = 0
+        Me.But_base10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_base10.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_base10.Location = New System.Drawing.Point(7, 446)
+        Me.But_base10.Margin = New System.Windows.Forms.Padding(0)
+        Me.But_base10.Name = "But_base10"
+        Me.But_base10.Size = New System.Drawing.Size(75, 45)
+        Me.But_base10.TabIndex = 27
+        Me.But_base10.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
+        Me.But_base10.UseVisualStyleBackColor = False
         '
-        'Button8
+        'But_log
         '
-        Me.Button8.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Button8.BackgroundImage = Global.Calculator.My.Resources.Resources.log
-        Me.Button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button8.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.Button8.FlatAppearance.BorderSize = 0
-        Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button8.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button8.Location = New System.Drawing.Point(7, 491)
-        Me.Button8.Margin = New System.Windows.Forms.Padding(0)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(75, 45)
-        Me.Button8.TabIndex = 26
-        Me.Button8.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
-        Me.Button8.UseVisualStyleBackColor = False
+        Me.But_log.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.But_log.BackgroundImage = Global.Calculator.My.Resources.Resources.log
+        Me.But_log.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.But_log.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_log.FlatAppearance.BorderSize = 0
+        Me.But_log.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_log.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_log.Location = New System.Drawing.Point(7, 491)
+        Me.But_log.Margin = New System.Windows.Forms.Padding(0)
+        Me.But_log.Name = "But_log"
+        Me.But_log.Size = New System.Drawing.Size(75, 45)
+        Me.But_log.TabIndex = 26
+        Me.But_log.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
+        Me.But_log.UseVisualStyleBackColor = False
         '
-        'Button7
+        'But_ln
         '
-        Me.Button7.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Button7.BackgroundImage = Global.Calculator.My.Resources.Resources.ln
-        Me.Button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button7.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.Button7.FlatAppearance.BorderSize = 0
-        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button7.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button7.Location = New System.Drawing.Point(7, 536)
-        Me.Button7.Margin = New System.Windows.Forms.Padding(0)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(75, 45)
-        Me.Button7.TabIndex = 25
-        Me.Button7.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
-        Me.Button7.UseVisualStyleBackColor = False
+        Me.But_ln.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.But_ln.BackgroundImage = Global.Calculator.My.Resources.Resources.ln
+        Me.But_ln.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.But_ln.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_ln.FlatAppearance.BorderSize = 0
+        Me.But_ln.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_ln.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_ln.Location = New System.Drawing.Point(7, 536)
+        Me.But_ln.Margin = New System.Windows.Forms.Padding(0)
+        Me.But_ln.Name = "But_ln"
+        Me.But_ln.Size = New System.Drawing.Size(75, 45)
+        Me.But_ln.TabIndex = 25
+        Me.But_ln.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
+        Me.But_ln.UseVisualStyleBackColor = False
         '
-        'Button6
+        'But_bs
         '
-        Me.Button6.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Button6.BackgroundImage = Global.Calculator.My.Resources.Resources.backspace
-        Me.Button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button6.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.Button6.FlatAppearance.BorderSize = 0
-        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button6.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button6.Location = New System.Drawing.Point(307, 266)
-        Me.Button6.Margin = New System.Windows.Forms.Padding(0)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(75, 45)
-        Me.Button6.TabIndex = 24
-        Me.Button6.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
-        Me.Button6.UseVisualStyleBackColor = False
+        Me.But_bs.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.But_bs.BackgroundImage = Global.Calculator.My.Resources.Resources.backspace
+        Me.But_bs.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.But_bs.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_bs.FlatAppearance.BorderSize = 0
+        Me.But_bs.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_bs.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_bs.Location = New System.Drawing.Point(307, 266)
+        Me.But_bs.Margin = New System.Windows.Forms.Padding(0)
+        Me.But_bs.Name = "But_bs"
+        Me.But_bs.Size = New System.Drawing.Size(75, 45)
+        Me.But_bs.TabIndex = 24
+        Me.But_bs.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
+        Me.But_bs.UseVisualStyleBackColor = False
         '
-        'Button5
+        'But_mod
         '
-        Me.Button5.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Button5.BackgroundImage = Global.Calculator.My.Resources.Resources._mod
-        Me.Button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button5.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.Button5.FlatAppearance.BorderSize = 0
-        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button5.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Location = New System.Drawing.Point(307, 311)
-        Me.Button5.Margin = New System.Windows.Forms.Padding(0)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(75, 45)
-        Me.Button5.TabIndex = 23
-        Me.Button5.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
-        Me.Button5.UseVisualStyleBackColor = False
+        Me.But_mod.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.But_mod.BackgroundImage = Global.Calculator.My.Resources.Resources._mod
+        Me.But_mod.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.But_mod.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_mod.FlatAppearance.BorderSize = 0
+        Me.But_mod.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_mod.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_mod.Location = New System.Drawing.Point(307, 311)
+        Me.But_mod.Margin = New System.Windows.Forms.Padding(0)
+        Me.But_mod.Name = "But_mod"
+        Me.But_mod.Size = New System.Drawing.Size(75, 45)
+        Me.But_mod.TabIndex = 23
+        Me.But_mod.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
+        Me.But_mod.UseVisualStyleBackColor = False
         '
-        'Button4
+        'But_div
         '
-        Me.Button4.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Button4.BackgroundImage = Global.Calculator.My.Resources.Resources.div
-        Me.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button4.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.Button4.FlatAppearance.BorderSize = 0
-        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(307, 356)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(0)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(75, 45)
-        Me.Button4.TabIndex = 22
-        Me.Button4.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
-        Me.Button4.UseVisualStyleBackColor = False
+        Me.But_div.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.But_div.BackgroundImage = Global.Calculator.My.Resources.Resources.div
+        Me.But_div.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.But_div.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_div.FlatAppearance.BorderSize = 0
+        Me.But_div.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_div.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_div.Location = New System.Drawing.Point(307, 356)
+        Me.But_div.Margin = New System.Windows.Forms.Padding(0)
+        Me.But_div.Name = "But_div"
+        Me.But_div.Size = New System.Drawing.Size(75, 45)
+        Me.But_div.TabIndex = 22
+        Me.But_div.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
+        Me.But_div.UseVisualStyleBackColor = False
         '
-        'Button3
+        'But_mul
         '
-        Me.Button3.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Button3.BackgroundImage = Global.Calculator.My.Resources.Resources.mul
-        Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button3.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.Button3.FlatAppearance.BorderSize = 0
-        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(307, 401)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(0)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 45)
-        Me.Button3.TabIndex = 21
-        Me.Button3.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
-        Me.Button3.UseVisualStyleBackColor = False
+        Me.But_mul.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.But_mul.BackgroundImage = Global.Calculator.My.Resources.Resources.mul
+        Me.But_mul.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.But_mul.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_mul.FlatAppearance.BorderSize = 0
+        Me.But_mul.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_mul.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_mul.Location = New System.Drawing.Point(307, 401)
+        Me.But_mul.Margin = New System.Windows.Forms.Padding(0)
+        Me.But_mul.Name = "But_mul"
+        Me.But_mul.Size = New System.Drawing.Size(75, 45)
+        Me.But_mul.TabIndex = 21
+        Me.But_mul.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
+        Me.But_mul.UseVisualStyleBackColor = False
         '
-        'Button2
+        'But_sub
         '
-        Me.Button2.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Button2.BackgroundImage = Global.Calculator.My.Resources.Resources._sub
-        Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button2.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.Button2.FlatAppearance.BorderSize = 0
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(307, 446)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(0)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 45)
-        Me.Button2.TabIndex = 20
-        Me.Button2.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.But_sub.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.But_sub.BackgroundImage = Global.Calculator.My.Resources.Resources._sub
+        Me.But_sub.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.But_sub.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_sub.FlatAppearance.BorderSize = 0
+        Me.But_sub.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_sub.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_sub.Location = New System.Drawing.Point(307, 446)
+        Me.But_sub.Margin = New System.Windows.Forms.Padding(0)
+        Me.But_sub.Name = "But_sub"
+        Me.But_sub.Size = New System.Drawing.Size(75, 45)
+        Me.But_sub.TabIndex = 20
+        Me.But_sub.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
+        Me.But_sub.UseVisualStyleBackColor = False
         '
-        'Button1
+        'But_add
         '
-        Me.Button1.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Button1.BackgroundImage = Global.Calculator.My.Resources.Resources.add
-        Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button1.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(307, 491)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(0)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 45)
-        Me.Button1.TabIndex = 19
-        Me.Button1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.But_add.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.But_add.BackgroundImage = Global.Calculator.My.Resources.Resources.add
+        Me.But_add.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.But_add.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_add.FlatAppearance.BorderSize = 0
+        Me.But_add.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_add.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.But_add.Location = New System.Drawing.Point(307, 491)
+        Me.But_add.Margin = New System.Windows.Forms.Padding(0)
+        Me.But_add.Name = "But_add"
+        Me.But_add.Size = New System.Drawing.Size(75, 45)
+        Me.But_add.TabIndex = 19
+        Me.But_add.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
+        Me.But_add.UseVisualStyleBackColor = False
         '
-        'history
+        'But_histo
         '
-        Me.history.BackColor = System.Drawing.Color.Gainsboro
-        Me.history.BackgroundImage = Global.Calculator.My.Resources.Resources.history
-        Me.history.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.history.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
-        Me.history.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.history.ForeColor = System.Drawing.Color.Black
-        Me.history.Location = New System.Drawing.Point(347, 14)
-        Me.history.Name = "history"
-        Me.history.Size = New System.Drawing.Size(30, 30)
-        Me.history.TabIndex = 2
-        Me.history.UseVisualStyleBackColor = False
+        Me.But_histo.BackColor = System.Drawing.Color.Gainsboro
+        Me.But_histo.BackgroundImage = Global.Calculator.My.Resources.Resources.history
+        Me.But_histo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.But_histo.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.But_histo.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_histo.ForeColor = System.Drawing.Color.Black
+        Me.But_histo.Location = New System.Drawing.Point(347, 14)
+        Me.But_histo.Name = "But_histo"
+        Me.But_histo.Size = New System.Drawing.Size(30, 30)
+        Me.But_histo.TabIndex = 2
+        Me.But_histo.UseVisualStyleBackColor = False
         '
-        'navbar
+        'But_menu
         '
-        Me.navbar.BackColor = System.Drawing.Color.Gainsboro
-        Me.navbar.BackgroundImage = Global.Calculator.My.Resources.Resources.icons8_windows_10_32
-        Me.navbar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.navbar.FlatAppearance.BorderSize = 0
-        Me.navbar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.navbar.ForeColor = System.Drawing.Color.Black
-        Me.navbar.Location = New System.Drawing.Point(12, 14)
-        Me.navbar.Name = "navbar"
-        Me.navbar.Size = New System.Drawing.Size(30, 30)
-        Me.navbar.TabIndex = 0
-        Me.navbar.UseVisualStyleBackColor = False
+        Me.But_menu.BackColor = System.Drawing.Color.Gainsboro
+        Me.But_menu.BackgroundImage = Global.Calculator.My.Resources.Resources.icons8_windows_10_32
+        Me.But_menu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.But_menu.FlatAppearance.BorderSize = 0
+        Me.But_menu.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.But_menu.ForeColor = System.Drawing.Color.Black
+        Me.But_menu.Location = New System.Drawing.Point(12, 14)
+        Me.But_menu.Name = "But_menu"
+        Me.But_menu.Size = New System.Drawing.Size(30, 30)
+        Me.But_menu.TabIndex = 0
+        Me.But_menu.UseVisualStyleBackColor = False
+        '
+        'screen
+        '
+        Me.screen.BackColor = System.Drawing.Color.Gainsboro
+        Me.screen.Font = New System.Drawing.Font("Segoe UI Semibold", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.screen.Location = New System.Drawing.Point(12, 76)
+        Me.screen.MaxLength = 12
+        Me.screen.Name = "screen"
+        Me.screen.Size = New System.Drawing.Size(370, 51)
+        Me.screen.TabIndex = 55
+        Me.screen.Text = "0"
+        Me.screen.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'Calculator
         '
@@ -894,55 +892,55 @@ Partial Class Calculator
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Gainsboro
         Me.ClientSize = New System.Drawing.Size(389, 581)
-        Me.Controls.Add(Me.Button36)
-        Me.Controls.Add(Me.Button35)
-        Me.Controls.Add(Me.Button34)
+        Me.Controls.Add(Me.screen)
+        Me.Controls.Add(Me.But_func)
+        Me.Controls.Add(Me.trig)
+        Me.Controls.Add(Me.But_e)
         Me.Controls.Add(Me.Button33)
-        Me.Controls.Add(Me.Button32)
-        Me.Controls.Add(Me.Button31)
-        Me.Controls.Add(Me.Button30)
-        Me.Controls.Add(Me.Button29)
-        Me.Controls.Add(Me.Button28)
-        Me.Controls.Add(Me.Button27)
-        Me.Controls.Add(Me.Button26)
-        Me.Controls.Add(Me.Button25)
-        Me.Controls.Add(Me.Button24)
-        Me.Controls.Add(Me.Button23)
-        Me.Controls.Add(Me.Button22)
-        Me.Controls.Add(Me.Button21)
-        Me.Controls.Add(Me.Button20)
-        Me.Controls.Add(Me.Button19)
-        Me.Controls.Add(Me.Button18)
+        Me.Controls.Add(Me.But_0)
+        Me.Controls.Add(Me.But_dot)
+        Me.Controls.Add(Me.But_6)
+        Me.Controls.Add(Me.But_1)
+        Me.Controls.Add(Me.But_2)
+        Me.Controls.Add(Me.But_8)
+        Me.Controls.Add(Me.But_9)
+        Me.Controls.Add(Me.But_4)
+        Me.Controls.Add(Me.But_5)
+        Me.Controls.Add(Me.But_7)
+        Me.Controls.Add(Me.But_3)
+        Me.Controls.Add(Me.But_op)
+        Me.Controls.Add(Me.But_cp)
+        Me.Controls.Add(Me.But_abs)
+        Me.Controls.Add(Me.But_expp)
         Me.Controls.Add(Me.Button17)
-        Me.Controls.Add(Me.Button16)
+        Me.Controls.Add(Me.But_clr)
         Me.Controls.Add(Me.Button15)
-        Me.Controls.Add(Me.Button14)
+        Me.Controls.Add(Me.But_pi)
         Me.Controls.Add(Me.Button13)
         Me.Controls.Add(Me.Button12)
         Me.Controls.Add(Me.Button11)
-        Me.Controls.Add(Me.Button10)
-        Me.Controls.Add(Me.Button9)
-        Me.Controls.Add(Me.Button8)
-        Me.Controls.Add(Me.Button7)
-        Me.Controls.Add(Me.Button6)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.equal)
-        Me.Controls.Add(Me.exponent)
-        Me.Controls.Add(Me.degree)
-        Me.Controls.Add(Me.ms)
-        Me.Controls.Add(Me.mminus)
-        Me.Controls.Add(Me.madd)
-        Me.Controls.Add(Me.mr)
-        Me.Controls.Add(Me.mc)
-        Me.Controls.Add(Me.memory)
-        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.But_2int)
+        Me.Controls.Add(Me.But_base10)
+        Me.Controls.Add(Me.But_log)
+        Me.Controls.Add(Me.But_ln)
+        Me.Controls.Add(Me.But_bs)
+        Me.Controls.Add(Me.But_mod)
+        Me.Controls.Add(Me.But_div)
+        Me.Controls.Add(Me.But_mul)
+        Me.Controls.Add(Me.But_sub)
+        Me.Controls.Add(Me.But_add)
+        Me.Controls.Add(Me.But_equal)
+        Me.Controls.Add(Me.But_exp)
+        Me.Controls.Add(Me.But_deg)
+        Me.Controls.Add(Me.But_ms)
+        Me.Controls.Add(Me.But_msub)
+        Me.Controls.Add(Me.But_madd)
+        Me.Controls.Add(Me.But_mr)
+        Me.Controls.Add(Me.But_mc)
+        Me.Controls.Add(Me.But_mem)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.history)
-        Me.Controls.Add(Me.navbar)
+        Me.Controls.Add(Me.But_histo)
+        Me.Controls.Add(Me.But_menu)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.MaximizeBox = False
@@ -956,53 +954,53 @@ Partial Class Calculator
 
     End Sub
 
-    Friend WithEvents navbar As Button
-    Friend WithEvents history As Button
+    Friend WithEvents But_menu As Button
+    Friend WithEvents But_histo As Button
     Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents memory As Button
-    Friend WithEvents mc As Button
-    Friend WithEvents mr As Button
-    Friend WithEvents madd As Button
-    Friend WithEvents mminus As Button
-    Friend WithEvents ms As Button
-    Friend WithEvents degree As Button
-    Friend WithEvents exponent As Button
-    Friend WithEvents equal As Button
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Button6 As Button
-    Friend WithEvents Button7 As Button
-    Friend WithEvents Button8 As Button
-    Friend WithEvents Button9 As Button
-    Friend WithEvents Button10 As Button
+    Friend WithEvents But_mem As Button
+    Friend WithEvents But_mc As Button
+    Friend WithEvents But_mr As Button
+    Friend WithEvents But_madd As Button
+    Friend WithEvents But_msub As Button
+    Friend WithEvents But_ms As Button
+    Friend WithEvents But_deg As Button
+    Friend WithEvents But_exp As Button
+    Friend WithEvents But_equal As Button
+    Friend WithEvents But_add As Button
+    Friend WithEvents But_sub As Button
+    Friend WithEvents But_mul As Button
+    Friend WithEvents But_div As Button
+    Friend WithEvents But_mod As Button
+    Friend WithEvents But_bs As Button
+    Friend WithEvents But_ln As Button
+    Friend WithEvents But_log As Button
+    Friend WithEvents But_base10 As Button
+    Friend WithEvents But_2int As Button
     Friend WithEvents Button11 As Button
     Friend WithEvents Button12 As Button
     Friend WithEvents Button13 As Button
-    Friend WithEvents Button14 As Button
+    Friend WithEvents But_pi As Button
     Friend WithEvents Button15 As Button
-    Friend WithEvents Button16 As Button
+    Friend WithEvents But_clr As Button
     Friend WithEvents Button17 As Button
-    Friend WithEvents Button18 As Button
-    Friend WithEvents Button19 As Button
-    Friend WithEvents Button20 As Button
-    Friend WithEvents Button21 As Button
-    Friend WithEvents Button22 As Button
-    Friend WithEvents Button23 As Button
-    Friend WithEvents Button24 As Button
-    Friend WithEvents Button25 As Button
-    Friend WithEvents Button26 As Button
-    Friend WithEvents Button27 As Button
-    Friend WithEvents Button28 As Button
-    Friend WithEvents Button29 As Button
-    Friend WithEvents Button30 As Button
-    Friend WithEvents Button31 As Button
-    Friend WithEvents Button32 As Button
+    Friend WithEvents But_expp As Button
+    Friend WithEvents But_abs As Button
+    Friend WithEvents But_cp As Button
+    Friend WithEvents But_op As Button
+    Friend WithEvents But_3 As Button
+    Friend WithEvents But_7 As Button
+    Friend WithEvents But_5 As Button
+    Friend WithEvents But_4 As Button
+    Friend WithEvents But_9 As Button
+    Friend WithEvents But_8 As Button
+    Friend WithEvents But_2 As Button
+    Friend WithEvents But_1 As Button
+    Friend WithEvents But_6 As Button
+    Friend WithEvents But_dot As Button
+    Friend WithEvents But_0 As Button
     Friend WithEvents Button33 As Button
-    Friend WithEvents Button34 As Button
-    Friend WithEvents Button35 As Button
-    Friend WithEvents Button36 As Button
+    Friend WithEvents But_e As Button
+    Friend WithEvents trig As Button
+    Friend WithEvents But_func As Button
+    Friend WithEvents screen As TextBox
 End Class
